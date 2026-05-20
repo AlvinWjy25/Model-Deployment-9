@@ -15,7 +15,7 @@ import streamlit as st
 from botocore.exceptions import ClientError, NoCredentialsError
 
 
-ENDPOINT_NAME = os.environ.get("ENDPOINT_NAME", "iris-endpoint")
+ENDPOINT_NAME = os.environ.get("ENDPOINT_NAME", "iris-endpoint-v2")
 REGION = os.environ.get("AWS_REGION", "us-east-1")
 
 
